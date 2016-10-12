@@ -8,4 +8,24 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MainActivityContentBase">
+        <item name="android:layout_width">@dimen/activity_main_content_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/acticity_main_content_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/acticity_main_content_margin_top</item>
+    </style>
+
+    <!-- MainActivity TextViewBase -->
+    <style name="MainActivityTextViewBase" parent="MainActivityContentBase">
+        <item name="android:text">@string/app_title</item>
+        <item name="android:textSize">@dimen/acticity_main_title_text_view_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- MainActivity ButtonBase -->
+    <style name="MainActicivityButtonBase" parent="MainActivityContentBase">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
 </resources>
